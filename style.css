@@ -1,0 +1,136 @@
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+           
+        }
+
+        header {
+            background-color: #6c5ce7;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 0;
+        }
+
+        .container {
+            margin-top: 20px;
+        }
+
+        .card {
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+
+        .card-header, .card-body {
+            border-radius: 20px;
+        }
+
+        .card-header {
+            background-color: #6c5ce7; 
+            color: #fff;
+        }
+
+        .card-body {
+            padding: 20px; 
+        }
+
+        h1 {
+            text-align: center;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        h4 {
+            text-align: center;
+            font-family: serif;
+            
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        .form-control {
+            border-radius: 10px;
+            border: 2px solid #6c5ce7; 
+            transition: border-color 0.3s ease;
+        }
+
+        .form-control:focus {
+            border-color: #4a40e4; 
+        }
+
+        .btn-primary {
+            background-color: #6c5ce7; 
+            border: none;
+            border-radius: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #4a40e4; 
+        }
+
+        .btn-danger,
+        .btn-success {
+            border-radius: 10px;
+        }
+
+        .rename,
+        .delete {
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+
+        .search-section {
+            margin-top: 20px;
+        }
+
+        .search-section label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .result-box {
+            background-color: #ecf4fd; 
+            border-radius: 10px;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        #not-found {
+            display: none;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+
+        #employee-list {
+            padding: 0;
+        }
+
+        .list-group-item {
+            border: none;
+            border-bottom: 1px solid #ddd;
+            border-radius: 0;
+        }
+
+        .list-group-item:last-child {
+            border-bottom: none;
+        }
+
+        .list-group-item:hover {
+            background-color: #f8f9fa; 
+        }
+
+        .list-group-item .btn {
+            border-radius: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .list-group-item .btn:hover {
+            opacity: 0.8;
+        }
